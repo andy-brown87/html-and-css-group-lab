@@ -18,10 +18,10 @@ body>header>nav>ul {
     justify-content: flex end;
     flex-direction: row;
     gap: 20px;
-    
 }
 
 main>header {
+    font-size: larger;
     background-color: royalblue;
     color: white;
     padding: 16px;
@@ -33,7 +33,8 @@ main>header {
 
 article {
     grid-area: article;
-    background-color: lightgray;
+    background-color: rgba(221, 219, 219, 0.964);
+    font-size: larger;
 }
 
 footer {
@@ -43,8 +44,8 @@ footer {
 #grid-container {
     display: grid;
     grid-template-areas: 
-        'header header header'
-        'article article article'
-        'footer footer footer';
-    grid-template-columns: 15fr 70fr 15fr;
+        'header header'
+        'article article'
+        'footer footer';
+    grid-template-columns: 30fr 70fr;
 }
